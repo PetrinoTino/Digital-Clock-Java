@@ -38,7 +38,7 @@ import java.util.Calendar;
         dayLabel.setFont(new Font("Ink Free",Font.BOLD,34));
 
         dateLabel=new JLabel();
-        dateLabel.setFont(new Font("Ink Free",Font.BOLD,30));
+        dateLabel.setFont(new Font("Ink Free",Font.BOLD,50));
 
 
         this.add(timeLabel);
