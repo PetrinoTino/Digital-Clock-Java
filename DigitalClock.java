@@ -1,4 +1,4 @@
-//Digital Clock mini project
+//Digital Clock mini project Petrino Qasolli
 
 import javax.swing.*;
 import java.awt.*;
@@ -18,6 +18,7 @@ import java.util.Calendar;
     String time;
     String day;
     String date;
+
     Clock() {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setTitle("Digital Clock");
