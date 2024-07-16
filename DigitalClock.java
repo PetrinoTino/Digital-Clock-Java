@@ -36,10 +36,8 @@ import java.util.Calendar;
         timeLabel.setOpaque(true);
         dayLabel=new JLabel();
         dayLabel.setFont(new Font("Ink Free",Font.BOLD,34));
-
         dateLabel=new JLabel();
         dateLabel.setFont(new Font("Ink Free",Font.BOLD,50));
-
 
         this.add(timeLabel);
         this.add(dayLabel);
@@ -48,7 +46,6 @@ import java.util.Calendar;
 
         setTimer();
     }
-
     public void setTimer() {
         while (true) {
             time = timeFormat.format(Calendar.getInstance().getTime());
